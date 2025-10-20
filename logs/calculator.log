@@ -1,0 +1,2 @@
+2025-10-20 00:08:54,476 - INFO - Operation: add, A: 10.0, B: 5.0, Result: 15.0
+2025-10-20 00:08:58,395 - INFO - Operation: power, A: 2.0, B: 4.0, Result: 16.0
