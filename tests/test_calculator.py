@@ -28,6 +28,13 @@ def test_divide_by_zero(calc):
 def test_power(calc):
     result = calc.calculate("power", 2, 3)
     assert result == 8
+    
+def test_clear_history(calc):
+    calc.calculate("add", 1, 1)
+    assert len(calc.get_history()) == 1
+    calc.clear_history()
+    assert len(calc.get_history()) == 0
+
 
 def test_undo_redo(calc):
     calc.calculate("add", 1, 1)
